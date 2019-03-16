@@ -9,6 +9,7 @@ class Student extends Person
     $this->setFname($fn);
     $this->setLname($ln);
     $this->setAge($yob);
+    $this->setYOB($yob);
     $this->selectedCourses=$sc;
     $this->creditPoints=$cp;
   }

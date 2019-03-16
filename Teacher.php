@@ -7,6 +7,7 @@ class Teacher extends Person
     $this->setFname($fn);
     $this->setLname($ln);
     $this->setAge($yob);
+    $this->setYOB($yob);
     $this->teachingSubject=$ts;
     $this->department=$dep;
   }

@@ -33,7 +33,6 @@ public function getYOB(){
   return $this->yearOfBirth;
 }
 public function setAge($value){
-  $b = 25;
   $from = new DateTime($value);
   $to   = new DateTime('today');
   $tot =  $from->diff($to)->y;
